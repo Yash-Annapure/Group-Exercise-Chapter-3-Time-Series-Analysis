@@ -1,6 +1,6 @@
 # Group Exercise – Chapter 3: Time Series Analysis
 
-## 👥 Group Members
+##  Group Members
 
 | Name | Matriculation Number | Role |
 |------|----------------------|------|
@@ -9,10 +9,10 @@
 | Yash Annapure | 100006547 | Team Member |
 | Anushka Sawant | 100006644 | Team Member | 
 
-## 📋 Overview
+##  Overview
 Comprehensive analysis of time series data using classical statistical methods. This project demonstrates key techniques for time series analysis including visualization, decomposition, trend estimation, and forecasting using real-world temperature data.
 
-## 📊 Dataset
+##  Dataset
 **Source:** Daily Minimum Temperatures in Melbourne
 - **Link:** [Daily Minimum Temperatures Dataset](https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv)
 - **Time Period:** 1981-1990 (10 years)
@@ -20,7 +20,7 @@ Comprehensive analysis of time series data using classical statistical methods. 
 - **Variable:** Minimum temperature in degrees Celsius (°C)
 - **Records:** 3,650 observations
 
-## 🎯 Project Objectives
+##  Project Objectives
 This exercise explores fundamental time series analysis concepts:
 1. Understand time series characteristics and visualization
 2. Decompose time series into trend, seasonal, and residual components
@@ -28,7 +28,7 @@ This exercise explores fundamental time series analysis concepts:
 4. Build predictive models using autoregressive (AR) methods
 5. Evaluate forecast performance on out-of-sample data
 
-## 📖 Notebook Contents
+##  Notebook Contents
 
 ### Section 1: Plotting the Time Series
 - Load the Melbourne temperature dataset
@@ -82,7 +82,7 @@ This exercise explores fundamental time series analysis concepts:
 - **Python:** 3.13
 - **Package Manager:** pip or uv
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Option 1: Using pip (Virtual Environment Recommended)
 ```bash
@@ -105,7 +105,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn "statsmodels>=0.14.6"
 uv pip install pandas numpy matplotlib seaborn scikit-learn "statsmodels>=0.14.6"
 ```
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### Running the Jupyter Notebook
 1. **Install Jupyter:**
@@ -129,7 +129,7 @@ uv pip install pandas numpy matplotlib seaborn scikit-learn "statsmodels>=0.14.6
 python main.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 ```
 Group-Exercise-Chapter-3-Time-Series-Analysis/
 ├── Group Exercise – Chapter 3 Time Series Analysis.ipynb  # Main analysis notebook
@@ -140,7 +140,7 @@ Group-Exercise-Chapter-3-Time-Series-Analysis/
 └── README.md                                               # This file
 ```
 
-## 💡 Key Concepts & Learnings
+##  Key Concepts & Learnings
 
 ### Time Series Decomposition
 Separating a time series into three components helps understand underlying patterns:
@@ -178,7 +178,7 @@ Separating a time series into three components helps understand underlying patte
 - Machine learning models (LSTM, Prophet)
 - Ensemble methods combining multiple models
 
-## 📚 References & Further Reading
+##  References & Further Reading
 
 ### Library Documentation:
 - [statsmodels Time Series](https://www.statsmodels.org/stable/tsa.html)
@@ -188,7 +188,7 @@ Separating a time series into three components helps understand underlying patte
 ### Dataset Source:
 - [Jason Brownlee's Datasets](https://github.com/jbrownlee/Datasets)
 
-## 📝 Notes for Users
+##  Notes for Users
 
 1. **Data Download:** The notebook downloads data directly from Packages.
 2. **Reproducibility:** Set random seeds if using stochastic models
