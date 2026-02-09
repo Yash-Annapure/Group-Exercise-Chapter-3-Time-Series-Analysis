@@ -180,10 +180,6 @@ Separating a time series into three components helps understand underlying patte
 
 ## 📚 References & Further Reading
 
-### Time Series Books:
-- "Forecasting: Principles and Practice" by Hyndman & Athanasopoulos
-- "Time Series Analysis and Its Applications" by Shumway & Stoffer
-
 ### Library Documentation:
 - [statsmodels Time Series](https://www.statsmodels.org/stable/tsa.html)
 - [pandas Time Series](https://pandas.pydata.org/docs/user_guide/timeseries.html)
@@ -194,7 +190,7 @@ Separating a time series into three components helps understand underlying patte
 
 ## 📝 Notes for Users
 
-1. **Data Download:** The notebook downloads data directly from GitHub, so internet connection is required on first run
+1. **Data Download:** The notebook downloads data directly from Packages.
 2. **Reproducibility:** Set random seeds if using stochastic models
 3. **Customization:** Easily modify window sizes, lags, and time periods for different analysis
 4. **Error Handling:** Add try-except blocks for production use
